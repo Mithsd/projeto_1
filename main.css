@@ -1,0 +1,215 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body
+{
+    background-image: url(./images/fundo.png);
+    background-position: 50%;
+    background-size:cover;
+}
+
+body,
+input,
+textarea
+{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header
+{
+    background-color: rgb(28, 29, 32);
+    padding: 16px 0;
+}
+
+header img
+{
+    height: 100px;
+}
+
+header nav li
+{
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav li a
+{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 24px;
+    transition: color 0.5s ease;
+}
+
+header nav li a:hover
+{
+    color: rgb(226, 96, 45);
+}
+
+header nav li a,
+section h2
+{
+font-family: "Sigmar One", sans-serif;
+font-weight: 30;
+font-style: normal;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section 
+{
+    color: rgb(28, 29, 32);
+}
+
+.container{
+    max-width: 1620px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.portfolio
+{
+    width: 1620px;
+    margin: 20px auto;
+    columns: 4;
+    column-gap: 20px;
+}
+
+.portfolio .box
+{
+    width: 100%;
+    margin-bottom: 10px;
+    break-inside: avoid;
+}
+
+.portfolio .box img
+{
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.sobre .container
+{
+    width: 50%;
+    display: flex;
+    align-items:end;
+    justify-content: space-between;
+    margin: 48px auto;
+}
+
+.sobre .container img
+{
+    height: 300px;
+    border-radius: 10px;
+}
+
+.sobre .redes li
+{
+    display: inline;
+    margin-right: 8px;
+}
+
+.sobre .redes li img 
+{
+    height: 32px;
+}
+
+.sobre .redes li a
+{
+    text-decoration: none;
+}
+
+.redes li a:hover
+{
+    transform: translateY(-14.75%);
+}
+
+.contato .container
+{
+    color: antiquewhite;
+    width: 50%;
+    display: block;
+    align-items: center;
+}
+
+form input,
+textarea,
+button{
+    display: block;
+    width: 500px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px; 
+    background-color: rgb(229, 226, 221);
+    border: none; 
+}
+textarea
+{
+    resize: none;
+    height: 180px;
+}
+
+section h2
+{
+    font-size: 36px;
+}
+
+section h3
+{
+    margin-bottom: 16px;
+    margin-top: 8px;
+}
+
+section p
+{
+    font-size: 18px;
+}
+
+section .contato h2,
+section .contato h3
+{
+    margin-left: 220px;
+}
+
+form button{
+    background-color: rgb(205, 73, 36);
+    color: antiquewhite;
+    border: none;
+    transition: background-color 0.5s ease;
+    border-radius:0.5cm;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(75, 33, 23);
+}
+
+input:focus,
+textarea:focus{
+    outline-color: rgb(28, 29, 32);
+}
+
+section .contato .container
+{
+    background-color: rgb(28, 29, 32);
+    border-radius: 10px;
+    margin-top: 52px;
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
